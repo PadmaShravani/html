@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+.container {
+        width: 300px;
+        clear: both;
+      }
+      
+      .container input {
+        width: 100%;
+        clear: both;
+      }
+/* .container label{
+display:inline-block;
+width:200px;
+margin-right:30px;
+text-align:center;
+}
+fieldset{
+border:none;
+width:500px;
+margin:0px auto;
+} */
+.container small{
+  -moz-box-align: center;
+}    
+
+    .container label{
+       text-align: left;
+    }
+    .input{
+        text-align:center;
+
+    }
+      </style>
+    
+</head>
+<body>
+    
+<form>
+    <div class="container">
+        <label for="first name">First Name <sup style="color: red;"> &#9913;</sup></label>
+        <input type="text" name="First name" placeholder="FirstName*"  >
+        <br><br>
+        <label>Last Name <sup style="color: red;"> &#9913;</label>
+        <input type="text" name="Last name"> <br><br>
+        <label>Email<sup style="color: red;"> &#9913;</sup></label>
+        <input type="email" name="email"> <br><br>
+        <label>Password <sup style="color: red;"> &#9913;</sup></label>
+        <input type="password" name="password"> 
+        <label>Confirm Password <sup style="color: red;"> &#9913;</sup></label>
+        <input type="password" name="password"> <br>
+        <small>use 8 or more characters with letters,numbers and symbols</small><br><br>
+        <label>User Name</label>
+        <input type="text" name="user Name"> <br><br>
+        <label>D.O.B <sup style="color: red;"> &#9913;</sup></label>
+        <input type="date" name="DateOfBirth"> <br><br>
+        <!-- <label>Gender</label>
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select><br><br> -->
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"
+        value="Femail">
+        <label>Female</label>
+        <input type="radio" name="gender" value="Male">
+        <label>Male</label>
+        <input type="radio" name="gender" value="Others">
+        <label>Others</label><br><br>
+        <!-- <label>Image</label> -->
+        <input type="img" value="image"><br><br>
+        <input type="submit" value="Register"> 
+<br><br>
+<LABEL>
+    First Name
+    <INPUT type="text" name="firstname">
+ </LABEL>
+
+       
+    </div>
+
+    <div class="label">
+        <label for="first name">First Name <sup style="color: red;"> &#9913;</sup></label>
+        <label>Gender:</label><br>
+        
+       
+        <label>Female</label>
+        
+
+    </div>
+    <div class="input">
+        <input type="text" name="First name" >
+        <input type="radio" name="gender" value="Femail">
+        <input type="radio" name="gender" value="Mail">
+
+
+    </div>
+</form>
+</body>
+</html>
